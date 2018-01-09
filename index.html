@@ -4,16 +4,31 @@
     <meta charset="utf-8">
     <title>Document</title>
     <style>
-      h1{
+      h1, h2{
         color: red;
       }
+
       .principal{
         color: blue;
         border-style: solid;
         border-color: black;
       }
+      .com_borda{
+        border-style: solid;
+        border-color: purple;
+      }
+      .com_cor{
+        color: yellow;
+      }
+
       #titulo_da_noticia{
         color: green;
+      }
+
+      div > h2{
+        border-style: double dashed solid;
+        border-color: grey;
+        padding-left: 100px;
       }
     </style>
   </head>
@@ -23,18 +38,33 @@
     <p>Lorem Ipsum</p>
     <p>Lorem Ipsum</p>
     <h1>Dois.</h1>
+    <p><span class="com_borda com_cor">Lorem Ipsum</span></p>
     <p>Lorem Ipsum</p>
     <p>Lorem Ipsum</p>
     <p>Lorem Ipsum</p>
     <p>Lorem Ipsum</p>
     <p>Lorem Ipsum</p>
+    <h1 id="titulo_da_noticia" class="com_cor">Três.</h1>
     <p>Lorem Ipsum</p>
-    <h1 id="titulo_da_noticia">Três.</h1>
-    <p>Lorem Ipsum</p>
-    <p>Lorem Ipsum</p>
-    <p>Lorem Ipsum</p>
+    <p class="com_cor com_borda">Lorem Ipsum</p>
     <p>Lorem Ipsum</p>
     <p>Lorem Ipsum</p>
     <p>Lorem Ipsum</p>
+    <p>Lorem Ipsum</p>
+    <h1>Quatro.</h1>
+    <p>Lorem Ipsum</p>
+    <p class="com_borda">Lorem Ipsum</p>
+    <p>Lorem Ipsum</p>
+    <p>Lorem Ipsum</p>
+    <p>Lorem Ipsum</p>
+    <p>Lorem Ipsum</p>
+    <div>
+      <h2>subtitulo primeiro</h2>
+      <p>Lorem Ipsum</p>
+      <p>Lorem Ipsum</p>
+      <p>Lorem Ipsum</p>
+      <p>Lorem Ipsum</p>
+    </div>
+
   </body>
 </html>
